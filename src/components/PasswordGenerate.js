@@ -23,13 +23,13 @@ const PasswordGenerate = () => {
         let length = lengthVar;
         let password = "";
 
-        if (checkedUppercaseChar == true) {
+        if (checkedUppercaseChar === true) {
             finalChar = finalChar + uppercaseChar;
-        } if (checkedLowercaseChar == true) {
+        } if (checkedLowercaseChar === true) {
             finalChar = finalChar + lowercaseChar;
-        } if (checkedNumbers == true) {
+        } if (checkedNumbers === true) {
             finalChar = finalChar + numbers;
-        } if (checkedSymbols == true) {
+        } if (checkedSymbols === true) {
             finalChar = finalChar + symbols;
         }
 
